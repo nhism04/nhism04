@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header .click ul{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.header .logo-phu{
+    margin-left: 600px;
+}
+li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+.main-content {
+    width: 328px;
+    height: 370px;
+    
+}
+.product .product-item {
+    display: grid;
+    grid-template-columns: repeat(42, 1fr) ;
+    grid-template-rows:1fr 16px;
+    gap: 32px;
+    margin-left: 64px;
+}
+
+.product .product-item .item {
+    display: grid;
+    grid-template-rows: 1fr 80px;
+    row-gap: 0px;
+}
+
+.product .product-item .item label {
+    font-family: BeaufortforLOL-Bold;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgba(14, 76, 103, 1);
+    color: #fff;
+    text-align: center;
+    padding: 28px 0px;
+    width: 100%;
+}
+
+.product .banner iframe {
+    width: 1519px;
+    min-height: 1000px;
+    margin-top: 64px;
+    padding: 0px 16px;
+}
+.footer{
+    padding-top: 10px;
+    margin-left: 16px;
+}
+.footer .banner iframe{
+    width: 1440px;
+}
+.ghi-chu{
+    display: flex;
+    margin-top: 20px;
+    width: 1440px;
+    height: 100px;
+    background-color: #0E4C67;
+    justify-content: space-between;
+    
+}
+.ghi-chu h1{
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+.ghi-chu input{
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-right: 20px;
+    height: 48px;
+    width: 220px;
+    background-color: #0E4C67;
+    color: white;
+}
+.ghi-chu button{
+    margin-top: 30px;
+}
